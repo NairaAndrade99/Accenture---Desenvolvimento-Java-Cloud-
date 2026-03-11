@@ -158,4 +158,11 @@ Operador| Nome |	Função
 (>>)	| Shift right	| desloca bits para a direita
 (>>>)	| Shift right | sem sinal	desloca para direita preenchendo com 0
 
+--------------------------
+
+Buscar ano atual do servidor 
+
+~~~JAVA 
+var baseYear = OffsetDateTime.now().getYear();
+~~~
 

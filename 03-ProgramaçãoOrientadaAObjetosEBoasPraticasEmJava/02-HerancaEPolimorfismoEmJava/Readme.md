@@ -118,3 +118,26 @@ final class Cachorro extends Animal {
 non-sealed class Gato extends Animal {
 }
 ~~~
+------------------
+instanceof 
+
+Em Java, o operador correto é instanceof (tudo minúsculo).
+Ele serve para verificar se um objeto pertence a uma determinada classe ou interface.
+
+~~~JAVA 
+objeto instanceof Classe
+~~~
+
+~~~JAVA 
+String texto = "Java";
+
+        if (texto instanceof String) {
+            System.out.println("É uma String");
+        }
+~~~
+
+| Operador     | Função                                |
+| ------------ | ------------------------------------- |
+| `instanceof` | verifica se um objeto é de uma classe |
+| Retorno      | `true` ou `false`                     |
+| Uso comum    | herança, polimorfismo e casting       |
